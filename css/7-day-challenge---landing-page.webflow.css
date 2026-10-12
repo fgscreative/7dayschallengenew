@@ -1349,7 +1349,7 @@ a {
 
 .pricing-components.is-v2 {
   grid-template-columns: 1.2fr .8fr;
-  margin-top: 5rem;
+  margin-top: 0;
 }
 
 .pricing-tab-content {
@@ -1379,6 +1379,10 @@ a {
   text-align: center;
 }
 
+.pricing-card-heading.is-center.is-affiliate {
+  max-width: 450px;
+}
+
 .price-tag {
   align-self: center;
 }
@@ -1390,6 +1394,11 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+}
+
+.pricing-description-wrapper.is-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .price-description {
@@ -4258,6 +4267,10 @@ a {
 
 #w-node-_2bbe02c4-19e0-985b-b075-14b7fe593184-77b7ba21 {
   grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_1997b3f9-f8bf-11e3-afa2-eb382c14b2ef-77b7ba21, #w-node-_70292b30-f71f-34fe-ebb5-95da3058daa5-77b7ba21 {
+  grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
 #w-node-_3e04e7dc-1891-40bd-22ac-ad73fa2b36c8-77b7ba21 {
